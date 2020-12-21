@@ -19,7 +19,7 @@ public class RedisManager {
         if(null!=jedisPool){
             return jedisPool.getResource();
         }
-        throw new Exception("Jedispool was not init !!!");
+        throw new Exception("JedisPool was not init !!!");
     }
 
 

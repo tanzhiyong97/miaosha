@@ -20,7 +20,7 @@ public class OptimisticLockTest {
 	public static void main(String[] args) throws InterruptedException {
 		long starTime=System.currentTimeMillis();
 
-		initPrduct();
+		initProduct();
 		initClient();
 		printResult();
 
@@ -72,7 +72,7 @@ public class OptimisticLockTest {
 	/**
 	 * 初始化商品个数
 	 */
-	public static void initPrduct() {
+	public static void initProduct() {
 		int prdNum = 100;// 商品个数
 		String key = "prdNum";
 		String clientList = "clientList";// 抢购到商品的顾客列表
